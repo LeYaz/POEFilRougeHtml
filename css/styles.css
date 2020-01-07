@@ -6,10 +6,34 @@ h2{
 }
 
 input:hover::placeholder{
-    color: aqua !important;
+    color: blue !important;
     
 }
 
 input::placeholder{
-    color: blue !important;
+    color: white !important;
+}
+
+#menu{
+    margin-top: 20%;
+    text-align: center;
+    height: 50px;;
+}
+
+#menu .col{
+    margin: 5%;
+    padding: 5%;
+    transition: 1s;
+}
+
+
+
+#menu .col a {
+    text-decoration: none;
+    color: red;
+}
+
+#menu .col a:hover {
+   
+    color: blue;
 }
