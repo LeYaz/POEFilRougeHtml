@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8" />
-    <title> Fiches </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Fiches </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
 
-<body>
-    <header>
+    <body>
+        <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                <a class="navbar-brand" href="./index.html" title="accueil"><img src="img/icon.png" alt="accueil" height="42" width="42"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="./index.html">Accueil<span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="./Devis.html">Devis</a>
                         <a class="nav-item nav-link" href="./commande.html">Commandes</a>
                         <a class="nav-item nav-link" href="./fiche.html">Fiches</a>
-                      </div>
                     </div>
-                  </nav>
-    </header>
-    <div>
-        <h2 class="text-center">Fiches</h2>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <h2 class="text-center">Fiches</h2>
 
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">Id </th>
-                    <th scope="col">Client</th>
-                    <th scope="col">User</th>
-                    <th scope="col">Etat fiche</th>
-                    <th scope="col">Priorité</th>
-                    <th scope="col">Date de création</th>
-                    <th scope="col">Date de cloture</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Jean Mark</td>
-                    <td>Yazid</td>
-                    <td>cloturé</td>
-                    <td>urgent</td>
-                    <td>25/07/2019</td>   
-                    <td>25/07/2019</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob Test</td>
-                    <td>Yazid</td>
-                    <td>En cours</td>
-                    <td>Non prioritaire</td>  
-                    <td>16/09/2019</td>                                    
-                    <td></td>                  
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry beans</td>
-                    <td>Yazid</td>
-                    <td>Cloturé</td>
-                    <td>Normal</td>
-                    <td>20/11/2019</td>                  
-                    <td>16/09/2019</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>Zinedine Zidane</td>
-                    <td>Yazid</td>
-                    <td>En cours</td>
-                    <td>Tres prioritaire</td>
-                    <td>02/12/2019</td>   
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id </th>
+                        <th scope="col">Client</th>
+                        <th scope="col">User</th>
+                        <th scope="col">Etat fiche</th>
+                        <th scope="col">Priorité</th>
+                        <th scope="col">Date de création</th>
+                        <th scope="col">Date de cloture</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Jean Mark</td>
+                        <td>Yazid</td>
+                        <td>cloturé</td>
+                        <td>urgent</td>
+                        <td>25/07/2019</td>   
+                        <td>25/07/2019</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob Test</td>
+                        <td>Yazid</td>
+                        <td>En cours</td>
+                        <td>Non prioritaire</td>  
+                        <td>16/09/2019</td>                                    
+                        <td></td>                  
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry beans</td>
+                        <td>Yazid</td>
+                        <td>Cloturé</td>
+                        <td>Normal</td>
+                        <td>20/11/2019</td>                  
+                        <td>16/09/2019</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Zinedine Zidane</td>
+                        <td>Yazid</td>
+                        <td>En cours</td>
+                        <td>Tres prioritaire</td>
+                        <td>02/12/2019</td>   
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 
 </html>

@@ -1,0 +1,15 @@
+
+
+
+h2{
+    color: red;
+}
+
+input:hover::placeholder{
+    color: aqua !important;
+    
+}
+
+input::placeholder{
+    color: blue !important;
+}
